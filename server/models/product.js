@@ -26,11 +26,11 @@ const productSchema = new Schema({
   },
   category: {
     type: Schema.Types.ObjectId,
-    ref: 'Category',
+    ref: 'category',
     required: true
   }
 });
 
-const Product = mongoose.model('Product', productSchema);
+const Product = mongoose.model('product', productSchema);
 
 module.exports = Product;
