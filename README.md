@@ -19,7 +19,7 @@ Actions should be dispatched using Redux.
 Getting Started
 To run the application locally, follow these steps:
 
-## Clone the repository.
+## Clone the repository: https://github.com/jmartincampos/ReduxStore.git
 Install dependencies using npm install.
 Start the development server using npm run dev.
 Open the application in your browser at http://localhost:3000.
