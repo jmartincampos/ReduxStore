@@ -1,6 +1,6 @@
 const { User, Product, Category, Order } = require('../models');
 const { signToken, AuthenticationError } = require('../utils/auth');
-const stripe = require('stripe')('sk_test_4eC39HqLyjWDarjtT1zdp7dc');
+const stripe = require('stripe')('sk_test_51P9cgiF5gEayoroyqp9Gx2Ggn73RCcSDBmTJMBNF4nFs62BLJK25JmhvDohiNoWh5bI4WhHa8krC4QSO0wRzhYJt00GGyd0BYz');
 
 const resolvers = {
   Query: {
